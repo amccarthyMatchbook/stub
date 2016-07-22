@@ -3,15 +3,12 @@ Test for basic static RESTful API stub
 
 # Requirements
 ## Development
- - Node **v6.3.0** (Please use [NVM](https://github.com/creationix/nvm) to set this up)
-
-## For Users
- - The current and previous release versions of Firefox and Chrome (at build time).
+ - Node **v6.3.0** (Use [NVM](https://github.com/creationix/nvm) for set up)
 
 ## Install PM2
 1. npm install pm2 -g
 
-# Installing the dependencies
+# Install the dependencies
 ```
 npm install
 ```
