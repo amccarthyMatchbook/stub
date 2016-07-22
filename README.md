@@ -1,5 +1,5 @@
 # Stub
-Basic Static RESTful API stub
+Test for basic static RESTful API stub
 
 # Requirements
 ## Development
