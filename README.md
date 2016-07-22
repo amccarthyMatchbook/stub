@@ -7,7 +7,6 @@ Basic Static REST stub
 # Requirements
 ## Development
  - Node **v6.3.0** (Please use [NVM](https://github.com/creationix/nvm) to set this up)
- - Gulp installed globally (`npm install -g gulp` in terminal will do this)
 
 ## For Users
  - The current and previous release versions of Firefox and Chrome (at build time).
