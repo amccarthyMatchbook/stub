@@ -1,5 +1,5 @@
 # Stub
-Basic Static RESTful stub
+Basic Static RESTful API stub
 
 ## Install PM2
 1. install pm2 npm install pm2 -g
