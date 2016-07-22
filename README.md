@@ -5,7 +5,7 @@ Test stub set-up for very basic static RESTful API
 ## Development
  - Node **v6.3.0** (Use [NVM](https://github.com/creationix/nvm) for set up)
 
-## Install PM2
+## Install PM2 ([PM2](https://github.com/Unitech/pm2))
 1. npm install pm2 -g
 
 # Install the dependencies
