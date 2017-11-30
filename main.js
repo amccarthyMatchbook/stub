@@ -17,13 +17,10 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 app.use(compression()); // gzip compression
-
+// addding modules for testing
 var events = require('./resources/events')(app);
-var grading = require('./resources/grading')(app);
-var payout = require('./resources/payout')(app);
 var sports = require('./resources/sports')(app);
-var users = require('./resources/users')(app);
-
+var brokerageConfiguration = require('./resources/brokerage-configuration')(app);
 
 app.get('/', function (req, res) {
   res.send('route');
