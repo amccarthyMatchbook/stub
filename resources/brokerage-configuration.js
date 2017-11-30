@@ -5,9 +5,9 @@ var _ = require('lodash'),
 
 module.exports = function(app) {
   //GET
-  app.get('/brokerage-configuration', function(req, res) {
+  app.get('/admin/brokerage-configuration', function(req, res) {
     res.status(200);
-    console.log('GET Sports');
-    res.json(data.sports);
+    console.log('GET Brokerage Configuration');
+    res.json(data.brokerageConfiguration);
   });
 }
